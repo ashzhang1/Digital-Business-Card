@@ -1,5 +1,5 @@
 import React from "react";
-import reactLogo from '../assets/react-image.png'
+import reactLogo from '../assets/react-image.png';
 
 export default function ProfileImage() {
     return (

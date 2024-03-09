@@ -60,7 +60,55 @@ body {
   text-decoration: none;
 }
 
-
 .basic-info-container  a:hover {
   color: #61DBFB;
+}
+
+
+/* Contact Buttons */
+.contact-buttons-container {
+  display: flex;
+  justify-content: space-between; 
+  width: 260px;
+  margin-top: 25px;
+}
+
+.linkedin-button {
+  width: 120px;
+  height: 35px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #0078D4;
+  border-radius: 5px;
+}
+
+.linkedin-logo {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.linkedin-link {
+  color: white;
+  text-decoration: none;
+}
+
+.email-button {
+  width: 120px;
+  height: 35px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.email-logo {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.email-link {
+  color: black;
+  text-decoration: none;
 }
