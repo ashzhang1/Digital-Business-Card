@@ -112,3 +112,45 @@ body {
   color: black;
   text-decoration: none;
 }
+
+.about-info-container {
+  width: 250px;
+}
+
+.about-title {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.about-text {
+  margin-top: 0px;
+  font-size: 12px;
+  color: white;
+}
+
+.footer-container {
+  background-color: rgb(22, 22, 25);
+  margin-top: auto;
+  border-radius: 0px 0px 20px 20px;
+  height: 40px;
+}
+
+.github-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(145, 142, 155);
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.github-logo {
+  width: 30px;
+}
+
+.github-link {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}

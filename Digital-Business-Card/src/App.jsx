@@ -3,6 +3,8 @@ import './styles/App.css'
 import ProfileImage from './components/ProfileImage'
 import BasicInfo from './components/BasicInfo'
 import ContactButtons from './components/ContactButtons'
+import AboutInfo from './components/AboutInfo'
+import Footer from './components/footer'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
         <ProfileImage />
         <BasicInfo />
         <ContactButtons />
+        <AboutInfo />
+        <Footer />
       </div>
     </div>
   )
