@@ -1,8 +1,8 @@
 import React from "react";
-import reactLogo from '../assets/react-image.png';
+import miffyImage from '../assets/miffy.png';
 
 export default function ProfileImage() {
     return (
-       <img src={reactLogo} className="profile-image"/>
+       <img src={miffyImage} className="profile-image"/>
     )
 }
